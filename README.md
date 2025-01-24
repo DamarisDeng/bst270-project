@@ -6,6 +6,7 @@ This repository contains my attempt to reproduces figures from FiveThirtyEight's
 This project utilizes Python programming language. To reproduce this result, clone this repo by
 ```bash
 git clone https://github.com/DamarisDeng/bst270-project.git
+cd bst270-project
 ```
 To install packages used to build this project, create a conda environment and use the `requirement.txt` file to install all dependencies.
 
