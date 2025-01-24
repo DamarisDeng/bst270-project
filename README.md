@@ -6,9 +6,10 @@ This repository contains my attempt to reproduces figures from FiveThirtyEight's
 This project utilizes Python programming language. For packages used to build this project, create a conda environment using the provided `environmnet.yml` file:
 
 ```bash
-conda env create -f environment.yml
+conda env create -n project
+conda activate project
+pip install -r requirements.txt
 ```
-
 ## Code
 
 A complete code for reproduction is available at `./code/covid-response.ipynb`. 
