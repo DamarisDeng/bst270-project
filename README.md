@@ -3,7 +3,11 @@ This repository contains my attempt to reproduces figures from FiveThirtyEight's
 
 ## Environment
 
-This project utilizes Python programming language. For packages used to build this project, create a conda environment using the provided `environmnet.yml` file:
+This project utilizes Python programming language. To reproduce this result, clone this repo by
+```bash
+git clone https://github.com/DamarisDeng/bst270-project.git
+```
+To install packages used to build this project, create a conda environment and use the `requirement.txt` file to install all dependencies.
 
 ```bash
 conda env create -n project
